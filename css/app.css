@@ -918,7 +918,7 @@ h6 a:visited {
   color: #2199e8; }
 
 pre {
-  background: #f3f3f3;
+  background: #dbdbdb;
   margin: 30px 0;
   Margin: 30px 0; }
   pre code {
@@ -1350,13 +1350,13 @@ body.outlook p {
 body,
 html,
 .body {
-  background: #f3f3f3 !important; }
+  background: #dbdbdb !important; }
 
 .container.header {
   background: #f3f3f3; }
 
 .body-drip {
-  border-top: 8px solid #663399; }
+  border-top: 8px solid #dbdbdb; }
 
 .header {
   background: #8a8a8a; }
