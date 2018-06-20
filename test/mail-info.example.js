@@ -1,15 +1,15 @@
 // private
 module.exports = {
   to: [
-    'example@163.com'
+    'ryan@hotcoffeydesign.com'
   ],
-  from: 'example <example@163.com>',
+  from: 'Hot Coffey Design <no-reply@hotcoffey.com>',
   smtp: {
     auth: {
-      user: 'example@163.com',
-      pass: 'example'
+      user: 'ryan@hotcoffeydesign.com',
+      pass: 'Swingline'
     },
-    host: 'smtp.163.com',
+    host: 'mail.hotcoffey.com',
     secureConnection: true,
     port: 465
   }
