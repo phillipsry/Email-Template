@@ -17,9 +17,10 @@ var smtpInfo = {
 gulp.task('mail', function () {
   return gulp.src('./test/drip.html')
     .pipe(mail({
-      subject: 'Surprise!?',
+      subject: 'Hot Coffey Design-Welcome Email',
       to: [
-        'ryan@hotcoffeydesign.com'
+        'phillipsry@icloud.com',
+    
       ],
       from: 'ryan@hotcoffey.com',
       smtp: smtpInfo
