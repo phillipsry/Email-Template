@@ -19,8 +19,21 @@ gulp.task('mail', function () {
     .pipe(mail({
       subject: 'Hot Coffey Design-Welcome Email',
       to: [
-        'phillipsry@icloud.com',
-    
+        'ryan@hotcoffeydesign.com',
+
+      ],
+      from: 'ryan@hotcoffey.com',
+      smtp: smtpInfo
+    }));
+});
+
+gulp.task('default', function () {
+  return gulp.src('./test/drip.html')
+    .pipe(mail({
+      subject: 'Hot Coffey Design-Welcome Email',
+      to: [
+        'ryan@hotcoffeydesign.com',
+
       ],
       from: 'ryan@hotcoffey.com',
       smtp: smtpInfo
